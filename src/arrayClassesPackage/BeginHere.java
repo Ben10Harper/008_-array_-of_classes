@@ -5,9 +5,9 @@ public class BeginHere {
 	public static void main(String[] args) {
 		
 		//Learn how to use array of a class
-		PatientArray myStudentArray = new PatientArray();
-		myStudentArray.buildArray();
-		myStudentArray.showArray();
+		PatientArray myPatientArray = new PatientArray();
+		myPatientArray.buildArray();
+		myPatientArray.showArray();
 
 		/*
 		 * Graded Assignment:

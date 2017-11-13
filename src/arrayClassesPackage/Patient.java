@@ -2,32 +2,33 @@ package arrayClassesPackage;
 
 public class Patient {
 
-	private String fname;
-	private String lname;
-	private int yearInSchool;
-
-	public String getFname() {
-		return fname;
+	private String breed;
+	private String gender;
+	private int age;
+	private String symptoms;
+	public String getBreed() {
+		return breed;
 	}
-
-	public void setFname(String fname) {
-		this.fname = fname;
+	public void setBreed(String breed) {
+		this.breed = breed;
 	}
-
-	public String getLname() {
-		return lname;
+	public String getGender() {
+		return gender;
 	}
-
-	public void setLname(String lname) {
-		this.lname = lname;
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
-
-	public int getYearInSchool() {
-		return yearInSchool;
+	public int getAge() {
+		return age;
 	}
-
-	public void setYearInSchool(int yearInSchool) {
-		this.yearInSchool = yearInSchool;
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getSymptoms() {
+		return symptoms;
+	}
+	public void setSymptoms(String symptoms) {
+		this.symptoms = symptoms;
 	}
 
 }

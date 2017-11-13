@@ -2,32 +2,41 @@ package arrayClassesPackage;
 
 public class PatientArray {
 	
-	Patient[] myStudents = new Patient[10];
+	Patient[] myPatients = new Patient[10];
 
 	public void buildArray() {
 		
-		myStudents[0] = new Patient();
-		myStudents[0].setFname("Tyler");
-		myStudents[0].setLname("Smith");
-		myStudents[0].setYearInSchool(11);
+		myPatients[0] = new Patient();
+		myPatients[0].setBreed("Beagle");
+		myPatients[0].setGender("F");
+		myPatients[0].setAge(8);
+		myPatients[0].setSymptoms("Ear infection");
 		
-		myStudents[1] = new Patient();
-		myStudents[1].setFname("Connor");
-		myStudents[1].setLname("Jones");
-		myStudents[1].setYearInSchool(12);
+		myPatients[1] = new Patient();
+		myPatients[1].setBreed("Parrot");
+		myPatients[1].setGender("M");
+		myPatients[1].setAge(1);
+		myPatients[1].setSymptoms("Broken wing");
 		
-		myStudents[2] = new Patient();
-		myStudents[2].setFname("Claire");
-		myStudents[2].setLname("Johnson");
-		myStudents[2].setYearInSchool(10);
+		myPatients[2] = new Patient();
+		myPatients[3] = new Patient();
+		myPatients[4] = new Patient();
+		myPatients[5] = new Patient();
+		myPatients[6] = new Patient();
+		myPatients[7] = new Patient();
+		myPatients[8] = new Patient();
+		myPatients[9] = new Patient();
+		
+		
 	}
 
 	public void showArray() {
 		
-		for (int i = 0; i < myStudents.length; i ++) {
-		System.out.println("First name: "+myStudents[i].getFname());
-		System.out.println("Last name: "+myStudents[i].getLname());
-		System.out.println("Year in school: "+myStudents[i].getYearInSchool());
+		for (int i = 0; i < myPatients.length; i ++) {
+		System.out.println("Breed: "+myPatients[i].getBreed());
+		System.out.println("Gender: "+myPatients[i].getGender());
+		System.out.println("Age: "+myPatients[i].getAge());
+		System.out.println("Symptoms: "+myPatients[i].getSymptoms());
 		System.out.println("");
 		}
 		
