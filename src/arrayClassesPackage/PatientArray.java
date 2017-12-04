@@ -21,20 +21,25 @@ public class PatientArray {
 		myPatients[1].setSymptoms("Broken wing");
 		
 		myPatients[2] = new Patient();
-		String msg = "Please enter a breed:";
-		String breed =JOptionPane.showInputDialog(msg);
-		myPatients[2].setBreed(breed);
-		msg = "Please enter a gender:";
-		String gender =JOptionPane.showInputDialog(msg);
-		myPatients[2].setGender(gender);
-		msg = "Please enter an age:";
-		int age = Integer.parseInt(JOptionPane.showInputDialog(msg));
-		myPatients[2].setAge(age);
-		msg = "Please enter symptoms:";
-		String symptoms =JOptionPane.showInputDialog(msg);
-		myPatients[2].setSymptoms(symptoms);
+		myPatients[2].setBreed("Calico");
+		myPatients[2].setGender("F");
+		myPatients[2].setAge(13);
+		myPatients[2].setSymptoms("Cancer");
 		
 		myPatients[3] = new Patient();
+		String msg = "Please enter a breed:";
+		String breed =JOptionPane.showInputDialog(msg);
+		myPatients[3].setBreed(breed);
+		msg = "Please enter a gender:";
+		String gender =JOptionPane.showInputDialog(msg);
+		myPatients[3].setGender(gender);
+		msg = "Please enter an age:";
+		int age = Integer.parseInt(JOptionPane.showInputDialog(msg));
+		myPatients[3].setAge(age);
+		msg = "Please enter symptoms:";
+		String symptoms =JOptionPane.showInputDialog(msg);
+		myPatients[3].setSymptoms(symptoms);
+		
 		myPatients[4] = new Patient();
 		myPatients[5] = new Patient();
 		myPatients[6] = new Patient();
